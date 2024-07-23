@@ -677,6 +677,7 @@ main {
         gap: 1rem;
         align-items: center;
         justify-content: flex-end;
+        height: 75vh;
     }
 
     .home-section .img-area {
@@ -686,6 +687,7 @@ main {
 
     .home-section .content-area {
         margin-top: 10px;
+        width: 85%;
     }
 
     .about-section {
@@ -697,11 +699,15 @@ main {
         gap: 20px;
     }
 
-    .about-content-area,
-    .about-content-area span {
+    .about-content-area  {
         margin-top: 0;
-        width: 85%;
+        width: 75%;
+    } 
+    
+    .about-content-area span {
+        width: 100%;
     }
+
 
     .projects-section {
         gap: 20px;
