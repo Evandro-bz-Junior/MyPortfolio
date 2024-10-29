@@ -66,7 +66,6 @@ body {
 
 .nav-link {
     position: relative;
-    /* Adicionado */
 }
 
 .nav-link::after {
@@ -325,7 +324,7 @@ section {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 400px;
+    height: 420px;
     border-radius: 20px;
     border: 1px solid #fff;
     align-items: center;
@@ -364,12 +363,12 @@ section {
 
 .project-content-area span {
     font-size: 0.9rem;
-    min-height: 70px;
+    min-height: 90px; 
 }
 
 .project-content-area .tech-user-area {
     display: flex;
-    gap: 2px;
+    gap: 3px;
     margin-left: -3px;
 }
 

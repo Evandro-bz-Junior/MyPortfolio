@@ -64,20 +64,4 @@ navLinks.forEach(function(link) {
     });
 
 
-    //
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '30px', // Reduz a distância
-    duration: 2000, // Reduz a duração
-    delay: 300, // Reduz o atraso
-    //reset: true //animation repeat
-})
  
-
-sr.reveal(`.nav-item, .contact-header`)
-
-sr.reveal(`.projects-section .header, .contact`,{origin:'bottom'})
-sr.reveal(`.content-area, .about-img-area, footer`,{origin:'left',interval: 200})
-sr.reveal(`.links-area, .about-content-area, .project-card`,{origin:'right',interval: 200})
-sr.reveal(`.nav-link`,{interval: 200,delay:200})
-
