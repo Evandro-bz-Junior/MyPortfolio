@@ -809,6 +809,9 @@ main {
     .about-content-area {
         margin-top: 40px;
     }
+    .tech-icons{
+        flex-wrap: wrap;
+    }
 
     .projects-container {
         grid-template-columns: 1fr 1fr;
