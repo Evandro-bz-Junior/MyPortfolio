@@ -811,6 +811,7 @@ main {
     }
     .tech-icons{
         flex-wrap: wrap;
+        max-width: 95%;
     }
 
     .projects-container {
