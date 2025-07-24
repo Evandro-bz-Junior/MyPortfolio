@@ -736,6 +736,10 @@ main {
         width: 100%;
     }
 
+    .tech-icons{
+        flex-wrap: wrap;
+    }
+
     .tech-icon {
         width: 40px;
         height: 40px;
